@@ -2,19 +2,18 @@
 class Customer:
 
     def __init__(self,name,address,phone):
-        self.__name=custname
-        self.__address=custAddress
-        self.__phone=custPhone
+        self.__name = name
+        self.__address = address
+        self.__phone = phone
 
     def set_name(self,name):
-        self.__name=name
+        self.__name = name
     
-
     def set_address(self,address):
-        self.__address=address
+        self.__address = address
     
     def set_phone(self,phone):
-         self.__phone=phone
+         self.__phone = phone
 
     def get_name(self):
         return self.__name
